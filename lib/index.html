@@ -3,12 +3,20 @@
     <title></title>
   </head>
   <body>
+    <canvas id="game-canvas" width="600" height="300"></canvas>
+
+    <script src="movingObject.js"></script>
     <script src="asteroid.js"></script>
-    <script src="bullet.js"></script>
+    <script src="utils.js"></script>
     <script src="game.js"></script>
     <script src="gameView.js"></script>
-    <script src="movingObject.js"></script>
     <script src="ship.js"></script>
-    <script src="utils.js"></script>
+    <script src="bullet.js"></script>
+    <script>
+      var canvasEl = document.getElementById("game-canvas");
+      canvasEl.getContext("2d");
+      new Asteroids.Game();
+      new Asteroids.GameView().start();
+    </script>
   </body>
 </html>
