@@ -9,9 +9,9 @@ Features
 
 How to play:
 Press each of the following to increase the velocity of the ship in the given direction
-Up
-Down
-Left
-Right
+* Up
+* Down
+* Left
+* Right
 
 Press 'A' to fire bullets
