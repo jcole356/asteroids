@@ -2,6 +2,8 @@
 
 JavaScript version of the classic arcade game.
 
+See the [live demo](https://jcole356.github.io/asteroids/) here!
+
 Features
 * Uses collision detection to remove or relocate objects
 * Uses canvas to draw game objects
@@ -15,3 +17,9 @@ Press each of the following to increase the velocity of the ship in the given di
 * Right
 
 Press 'A' to fire bullets
+
+TODO's
+* Update colors for different objects
+* Have asteroids break apart
+* Add a background image
+* Add different shapes for different objects
