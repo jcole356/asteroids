@@ -20,6 +20,6 @@ Press 'A' to fire bullets
 
 TODO's
 * Update colors for different objects
-* Have asteroids break apart
-* Add a background image
 * Add different shapes for different objects
+* Add scoring and lives
+* Add sound and animations for explosions
